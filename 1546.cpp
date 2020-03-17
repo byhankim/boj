@@ -13,9 +13,8 @@ int main(void)
     {
         std::cin >> scores[i];
         M = (scores[i] > M) ? scores[i] : M;
+        S += float(scores[i]);
     }
-    for (int i = 0; i < N; i++)
-        S += float(scores[i]) / M * 100;
-    std::cout << float(S) / N << std::endl;
+    std::cout << (float(S) / M * 100 / N) << std::endl;
     return (0);
 }
