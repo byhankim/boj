@@ -5,6 +5,7 @@ int main()
     int total_cnt = 12;
     int score = 0;
     int temp = 0;
+    
     while (total_cnt--)
     {
         cin >> temp;
