@@ -2,7 +2,7 @@
 
 int    main(void)
 {
-    int N;
+    int  N;
     
     scanf("%d", &N);
     for (int i = 0, cnt = 0; i < N * 2 - 1; i++)
