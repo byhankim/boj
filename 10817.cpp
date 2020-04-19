@@ -2,7 +2,7 @@
 
 int    main(void)
 {
-    int A, B, C, mid;
+    int  A, B, C, mid;
     
     scanf("%d %d %d", &A, &B, &C);
     if (A > B)
