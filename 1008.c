@@ -2,7 +2,7 @@
 
 int    main(void)
 {
-    double A, B;
+    double  A, B;
     
     scanf("%lf %lf", &A, &B);
     printf("%.10lf", A / B);
