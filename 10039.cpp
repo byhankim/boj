@@ -2,7 +2,7 @@
 
 int    main(void)
 {
-    int    score, sum;
+    int score, sum;
     
     score = sum = 0;
     for (int i = 0; i < 5; ++i)
