@@ -10,11 +10,7 @@ int main(void)
     for (int i = M; i <= N; i++)
     {
         is_prime = true;
-<<<<<<< HEAD
-        for (int j = 2; j * j <= i; j++)
-=======
         for (int j = 2; j < i; j++)
->>>>>>> 8a497ca8e7bc8fde564bdad5105c77315f3c373b
         {
             if (i % j == 0)
             {
