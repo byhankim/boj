@@ -28,6 +28,5 @@ int main(void)
         it-- = in.erase(it);
     }
     cout << '>';
-    
     return 0;
 }
