@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main(test_again)
+int main(start_over)
 {
     ios::sync_with_stdio(0);
     cin.tie(0);
